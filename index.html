@@ -10,13 +10,24 @@ EMAIL: plzambra@uci.edu
   <meta charset="utf-8">
   <meta name="author" content="Piersen Zambrano">
   <meta name="description" content="description of your page">
-   <!-- you would link to an external stylesheet here! -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
    <!-- you would also link to Bootstrap here! -->
   <title>title here</title>
 </head>
-<body>
+<body id="top">
+  <nav>
+    <ul>
+      <li><a href="#top">Home</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+    </ul>
+  </nav>
   <main>
-    <section id="home page">
+    <section id="home-page">
       <h1>Piersen Layne Zambrano</h1>
       <h2>Undergrad at UC Irvine</h2>
       <aside>
@@ -87,8 +98,34 @@ EMAIL: plzambra@uci.edu
       </div>
     </section>
 
-    <section id="interests">
-      <h2>Interests</h2>
+    <section id="skills">
+      <table>
+        <caption>Technical Skills & Proficiency</caption>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Applications</th>
+            <th>Experience</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <tb>Languages</tb>
+            <tb>C++, Python, HTML/CSS, JavaScript</tb>
+            <tb>Intermediate</tb>
+          </tr>
+          <tr>
+            <tb>Tools</tb>
+            <tb>VS Code, Git, GitHub</tb>
+            <tb>Proficient</tb>
+          </tr>
+          <tr>
+            <tb>Topics</tb>
+            <tb>Algorithms, Data Structures</tb>
+            <tb>High Level Coursework</tb>
+          </tr>
+        </tbody>
+      </table>
     </section>
   </main>
 </body>

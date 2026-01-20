@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.montserrat-mont {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #333;
+    margin: 0;
+    border: 10px;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    padding: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 15px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #333;
+}
+
+main {
+    margin: 10px;
+    border: 10px;
+    padding: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#home-page {
+    margin-top: 275px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+#home-page h1 {
+    color: #333;
+    font-size: 3.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+#home-page h2 {
+    color: #333;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#home-page aside {
+    margin-top: 250px;
+}
+
+#home-page ul {
+    list-style-type: none;
+}
+
+#home-page h5 {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 5px;
+}
+
+#education {
+    background-color: #333;
+    color: white;
+    padding: 100px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
