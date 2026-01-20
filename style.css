@@ -45,19 +45,23 @@ nav a:hover {
     color: #333;
 }
 
-main {
-    margin: 10px;
-    border: 10px;
-    padding: 50px;
-}
-
 body {
     margin: 0;
     padding: 0;
 }
 
+section {
+    width: 100%;
+    padding: 100px;
+}
+
+.sec-header {
+    font-size: 3.25rem;
+    margin-bottom: 25px;
+}
+
 #home-page {
-    margin-top: 275px;
+    padding-top: 275px;
     margin-left: 100px;
     margin-bottom: 100px;
 }
@@ -84,7 +88,7 @@ body {
     list-style-type: none;
 }
 
-#home-page h5 {
+#home-page h3 {
     font-family: "Montserrat", sans-serif;
     margin-bottom: 5px;
 }
@@ -92,7 +96,37 @@ body {
 #education {
     background-color: #333;
     color: white;
-    padding: 100px;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.coursework {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.coursework h3 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+    width: 100%;
+}
+
+.course-col {
+    flex: 1;
+    padding: 30px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.course-col h4 {
+    font-size: 1.75rem;
+    padding-bottom: 10px;
+}
+
+.course-col ul {
+    font-size: 1.5rem;
+}
+
+#projects {
+    color: #333;
 }
