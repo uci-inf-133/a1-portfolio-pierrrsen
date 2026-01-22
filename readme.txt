@@ -54,6 +54,10 @@ It took me around 6 hours to complete this assignment, the first hour being just
 I used W3 schools to skim the possible tags and properties I could change 
 but I had a difficult time understanding their explanations so I often used 
 Google Gemini to explain what they did and how they interacted with the website.
+I also used some youtube videos to guide me on html, css, and bootstrap.
+https://gemini.google.com/
+https://www.w3schools.com/
+https://www.youtube.com/
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
